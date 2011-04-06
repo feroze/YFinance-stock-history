@@ -1,0 +1,19 @@
+YFinance-stock-history
+
+ULTIMATE OBJECTIVE - To build an algo trading tool
+
+
+Currently:
+-> Extracts NSE stocks from website and exports to company.db
+-> Uses goldberg's YFinance py code - ystockquote.py
+-> history.py -> Matches stock script name from equity.csv, queries YFinance
+-> Writes to history.db
+
+TODO:
+1. Use GFinance as for realtime datasource
+2. Run multiple instances
+3. Use mysql to allow concurrent access
+4. Implement algo models and test result with history
+
+
+
